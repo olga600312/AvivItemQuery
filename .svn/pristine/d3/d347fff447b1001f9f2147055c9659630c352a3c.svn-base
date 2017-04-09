@@ -1,0 +1,79 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppLoginTheme" parent="AppTheme">
+        <item name="android:windowBackground">@color/primary_dark</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Progress Dialog -->
+    <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:background">@color/primary</item>
+    </style>
+
+
+    <!--Login page text layout & text edit -->
+    <style name="TextAppearence.App.LoginTextInputLayout" parent="@android:style/TextAppearance">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/accent</item>
+        <item name="colorControlHighlight">@color/primary_light</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="LoginTilEditTextFloatingLabel" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/primary_light</item>
+        <!--item name="android:textSize">@dimen/styledtil_edit_text_floating_label_size</item-->
+    </style>
+
+    <style name="LoginTilEditTextLayout">
+        <item name="android:textColorHint">@color/primary_light</item>
+    </style>
+
+    <style name="LoginTilEditTextTheme">
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:singleLine">true</item>
+        <item name="colorControlNormal">@color/primary_light</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="android:textColorPrimary">@color/primary_light</item>
+        <!--item name="android:textSize">@dimen/styledtil_edit_text_size</item-->
+    </style>
+
+    <style name="LoginTilEditText">
+        <item name="android:theme">@style/LoginTilEditTextTheme</item>
+        <item name="android:paddingTop">4dp</item>
+    </style>
+
+    <!--style name="ItemMenuButtonsStyle">
+        <item name="fab_shadowColor">@color/shadow</item>
+        <item name="fab_colorNormal">@color/accent</item>
+        <item name="fab_colorPressed">@color/accent</item>
+        <item name="fab_colorRipple">@color/accent</item>
+    </style-->
+
+</resources>
